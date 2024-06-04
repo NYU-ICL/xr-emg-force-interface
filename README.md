@@ -13,12 +13,12 @@ By identifying users' muscle activation patterns while engaging in VR/AR, we des
 
 ## Usage
 
-1. Download the dataset at [google drive](https://drive.google.com/file/d/1ECcikftUhi70a9zK4yeVU8jIGpUgh9Q5/view?usp=sharing).
-2. Move extracted `Data/` and `Dataset/` folders to the project directory.
-3. (Optional) Re-generate the dataset: `python processing.py`
-4. Train and evaluate the model: `python main.py`
+1. Download the dataset at [OneDrive](https://1drv.ms/f/s!Ahl4AorfaIk6kP8GxCcYfnEVszREVA);
+2. Place the extracted `Data/` and `Dataset/` folders under the project root directory;
+3. (Optional) Re-generate the dataset: `python processing.py`;
+4. Train and evaluate the model: `python main.py`.
 
-For further details about the model, please refer to [our paper](https://www.immersivecomputinglab.org/wp-content/uploads/2022/10/xr-emg-force-interface.pdf).
+For more details about our model and dataset, please refer to [our paper](https://www.immersivecomputinglab.org/wp-content/uploads/2022/10/xr-emg-force-interface.pdf).
 
 ## Citation
 
