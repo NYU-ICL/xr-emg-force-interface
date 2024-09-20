@@ -1,7 +1,7 @@
-## Force-Aware Interface via Electromyography for Natural VR/AR Interaction (SIGGRAPH Asia 2022)
+## Force-Aware Interface via Electromyography for Natural VR/AR Interaction
 
-[Yunxiang Zhang](https://yunxiangzhang.github.io/), Benjamin Liang, Boyuan Chen, [Paul M. Torrens](https://engineering.nyu.edu/faculty/paul-torrens), [S. Farokh Atashzar](https://engineering.nyu.edu/faculty/s-farokh-atashzar), [Dahua Lin](http://dahua.site/), [Qi Sun](https://qisun.me/)
-
+[Yunxiang Zhang](https://yunxiangzhang.github.io/), Benjamin Liang, Boyuan Chen, [Paul M. Torrens](https://engineering.nyu.edu/faculty/paul-torrens), [S. Farokh Atashzar](https://engineering.nyu.edu/faculty/s-farokh-atashzar), [Dahua Lin](http://dahua.site/), [Qi Sun](https://qisun.me/) \
+ACM Transactions on Graphics (ACM SIGGRAPH Asia 2022) \
 [\[Paper\]](https://www.immersivecomputinglab.org/wp-content/uploads/2022/10/xr-emg-force-interface.pdf) [\[Project Page\]](https://www.immersivecomputinglab.org/publication/force-aware-interface-via-electromyography-for-natural-vr-ar-interaction/) [\[Video\]](https://www.youtube.com/watch?v=Y95LgJT0-Ks)
 
 ![](Docs/teaser-bottom.png)
@@ -12,18 +12,14 @@ While tremendous advances in visual and auditory realism have been made for virt
 By identifying users' muscle activation patterns while engaging in VR/AR, we design a learning-based neural interface for natural and intuitive force inputs. Specifically, we show that lightweight electromyography sensors, resting non-invasively on users' forearm skin, inform and establish a robust understanding of their complex hand activities. Fuelled by a neural-network-based model, our interface can decode finger-wise forces in real-time with 3.3% mean error, and generalize to new users with little calibration. Through an interactive psychophysical study, we show that human perception of virtual objects' physical properties, such as stiffness, can be significantly enhanced by our interface. We further demonstrate that our interface enables ubiquitous control via finger tapping. Ultimately, we envision our findings to push forward research towards more realistic physicality in future VR/AR.
 
 ## Usage
-
-1. Download the dataset at [OneDrive](https://1drv.ms/f/s!Ahl4AorfaIk6kP8GxCcYfnEVszREVA);
-2. Place the extracted `Data/` and `Dataset/` folders under the project root directory;
-3. (Optional) Re-generate the dataset: `python processing.py`;
-4. Train and evaluate the model: `python main.py`.
+1. Download the dataset from [OneDrive](https://1drv.ms/f/s!Ahl4AorfaIk6kP8GxCcYfnEVszREVA) and place the extracted `Data/`, `Dataset/` folders under the project root directory;
+3. (Optional) Re-process the raw sEMG-force data and generate the dataset: `python processing.py`;
+4. Train and evaluate the model for finger force prediction: `python main.py`.
 
 For more details about our model and dataset, please refer to [our paper](https://www.immersivecomputinglab.org/wp-content/uploads/2022/10/xr-emg-force-interface.pdf).
 
 ## Citation
-
-If you find this work useful for your research, please consider citing [BibTeX](Docs/xr-emg-force-interface.bib):
-
+If you find this work useful to your research, please consider citing [BibTeX](Docs/xr-emg-force-interface.bib):
 ```bibtex
 @article{zhang2022force,
   title={Force-aware interface via electromyography for natural VR/AR interaction},
